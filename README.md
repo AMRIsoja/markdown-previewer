@@ -1,16 +1,53 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A live Markdown editor with real-time preview built using React.  
+The application allows users to write Markdown syntax and instantly see the rendered HTML output with full security protection and persistent storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://markdown-previewer-alpha-rose.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Repository
 
-## Expanding the ESLint configuration
+https://github.com/AMRIsoja/markdown-previewer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 📝 Live Markdown editor (real-time preview)
+- 🔄 Split-screen layout (Editor | Preview)
+- 🔠 Supports:
+  - Headings
+  - Bold & Italic text
+  - Ordered & unordered lists
+  - Inline code & code blocks
+  - Links
+  - Images
+  - Blockquotes
+- 💾 Persistent storage using LocalStorage
+- 🔐 XSS protection using HTML sanitization
+- 📱 Fully responsive design (desktop + mobile)
+- ⚡ Fast and lightweight rendering
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Marked (Markdown parser)
+- DOMPurify (HTML sanitizer)
+- CSS3
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/AMRIsoja/markdown-previewer.git
+cd markdown-previewer
+npm install
+npm run dev
